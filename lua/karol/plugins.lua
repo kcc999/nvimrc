@@ -34,7 +34,17 @@ return require('packer').startup(function(use)
   },
   use {'nyoom-engineering/oxocarbon.nvim'},
   use {'folke/tokyonight.nvim'},
-  use {'NeogitOrg/neogit'}
+  use {'NeogitOrg/neogit'},
+  use {'/Users/karol/dev/todobuddy'},
+  use { "ellisonleao/gruvbox.nvim" },
+  use 'kvrohit/rasmus.nvim',
+  use "n1ghtmare/noirblaze-vim",
+  use 'axvr/photon.vim',
+  use {"xero/miasma.nvim"},
+  use 'ribru17/bamboo.nvim',
+  use {'VonHeikemen/little-wonder'},
+  use "rebelot/kanagawa.nvim",
+  use "blazkowolf/gruber-darker.nvim"
 
 }
 end)
