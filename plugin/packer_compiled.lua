@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bamboo.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/bamboo.nvim",
+    url = "https://github.com/ribru17/bamboo.nvim"
+  },
   ["bluloco.nvim"] = {
     loaded = true,
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/bluloco.nvim",
@@ -89,10 +94,35 @@ _G.packer_plugins = {
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["gruber-darker.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/gruber-darker.nvim",
+    url = "https://github.com/blazkowolf/gruber-darker.nvim"
+  },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
+  ["little-wonder"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/little-wonder",
+    url = "https://github.com/VonHeikemen/little-wonder"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["lush.nvim"] = {
     loaded = true,
@@ -109,6 +139,21 @@ _G.packer_plugins = {
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["miasma.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/miasma.nvim",
+    url = "https://github.com/xero/miasma.nvim"
+  },
+  neogit = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/NeogitOrg/neogit"
+  },
+  ["noirblaze-vim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/noirblaze-vim",
+    url = "https://github.com/n1ghtmare/noirblaze-vim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -124,20 +169,50 @@ _G.packer_plugins = {
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["oxocarbon.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["photon.vim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/photon.vim",
+    url = "https://github.com/axvr/photon.vim"
   },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rasmus.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/rasmus.nvim",
+    url = "https://github.com/kvrohit/rasmus.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/karol/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  todobuddy = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/todobuddy",
+    url = "/Users/karol/dev/todobuddy"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/Users/karol/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   }
 }
 
