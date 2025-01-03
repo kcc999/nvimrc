@@ -43,7 +43,8 @@ return require('packer').startup(function(use)
   use 'ribru17/bamboo.nvim',
   use {'VonHeikemen/little-wonder'},
   use "rebelot/kanagawa.nvim",
-  use "blazkowolf/gruber-darker.nvim"
+  use "blazkowolf/gruber-darker.nvim",
+  use 'Olical/conjure'
 
 }
 end)
