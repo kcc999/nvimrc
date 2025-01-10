@@ -33,3 +33,8 @@ lsp.setup({
     flags = clangd_flags
   }
 })
+
+lsp.on_attach(function(client, bufnr)
+  -- Add this line for auto-import keybinding
+  vim.keymap.set('n', '<leader>i', vim.lsp.buf.code_action, {buffer = bufnr})
+end)

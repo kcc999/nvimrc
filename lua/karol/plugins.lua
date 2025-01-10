@@ -44,7 +44,7 @@ return require('packer').startup(function(use)
   use {'VonHeikemen/little-wonder'},
   use "rebelot/kanagawa.nvim",
   use "blazkowolf/gruber-darker.nvim",
-  use 'Olical/conjure'
-
+  use 'Olical/conjure',
+  use 'jiangmiao/auto-pairs'
 }
 end)
