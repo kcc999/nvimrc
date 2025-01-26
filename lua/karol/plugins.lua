@@ -32,19 +32,10 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   },
-  use {'nyoom-engineering/oxocarbon.nvim'},
-  use {'folke/tokyonight.nvim'},
   use {'NeogitOrg/neogit'},
-  use { "ellisonleao/gruvbox.nvim" },
-  use 'kvrohit/rasmus.nvim',
-  use "n1ghtmare/noirblaze-vim",
-  use 'axvr/photon.vim',
-  use {"xero/miasma.nvim"},
-  use 'ribru17/bamboo.nvim',
   use {'VonHeikemen/little-wonder'},
-  use "rebelot/kanagawa.nvim",
-  use "blazkowolf/gruber-darker.nvim",
   use 'Olical/conjure',
-  use 'jiangmiao/auto-pairs'
+  use 'jiangmiao/auto-pairs',
+  use 'miikanissi/modus-themes.nvim'
 }
 end)
