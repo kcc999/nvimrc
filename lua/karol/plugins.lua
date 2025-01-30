@@ -36,6 +36,6 @@ return require('packer').startup(function(use)
   use {'VonHeikemen/little-wonder'},
   use 'Olical/conjure',
   use 'jiangmiao/auto-pairs',
-  use 'miikanissi/modus-themes.nvim'
+  use 'navarasu/onedark.nvim'
 }
 end)
