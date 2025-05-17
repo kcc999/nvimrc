@@ -7,5 +7,6 @@ vim.cmd("set expandtab")
 require('onedark').setup {
     style = 'darker'
 }
-vim.cmd("colorscheme onedark")
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
 vim.keymap.set('n', '<leader>ai', vim.lsp.buf.code_action, { desc = 'Perform Code Action (Autoimport)' })

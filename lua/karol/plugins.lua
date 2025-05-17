@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
   },
   use {'NeogitOrg/neogit'},
   use {'VonHeikemen/little-wonder'},
+  use { "ellisonleao/gruvbox.nvim" },
   use 'Olical/conjure',
   use 'jiangmiao/auto-pairs',
   use 'navarasu/onedark.nvim'
