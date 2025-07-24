@@ -37,6 +37,9 @@ return require('packer').startup(function(use)
   use { "ellisonleao/gruvbox.nvim" },
   use 'Olical/conjure',
   use 'jiangmiao/auto-pairs',
-  use 'navarasu/onedark.nvim'
+  use 'navarasu/onedark.nvim',
+  use 'folke/tokyonight.nvim',
+  use 'elixir-editors/vim-elixir'
+
 }
 end)
