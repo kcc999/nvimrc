@@ -1,9 +1,10 @@
-vim.cmd("set number relativenumber")
-vim.cmd("set termguicolors")
-vim.cmd("set tabstop=2")
-vim.cmd("set shiftwidth=2")
-vim.cmd("set smarttab")
-vim.cmd("set expandtab")
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.termguicolors = true
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.smarttab = true
+vim.opt.expandtab = true
 require('onedark').setup {
     style = 'darker'
 }
