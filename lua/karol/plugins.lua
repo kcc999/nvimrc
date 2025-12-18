@@ -78,6 +78,27 @@ require("lazy").setup({
         vim.keymap.set('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', { buffer = bufnr })
       end)
 
+      local cmp = require('cmp')
+      cmp.setup({
+        mapping = cmp.mapping.preset.insert({
+          ['<Tab>'] = cmp.mapping(function(fallback)
+            if cmp.visible() then
+              cmp.select_next_item()
+            else
+              fallback()
+            end
+          end, { 'i', 's' }),
+          ['<S-Tab>'] = cmp.mapping(function(fallback)
+            if cmp.visible() then
+              cmp.select_prev_item()
+            else
+              fallback()
+            end
+          end, { 'i', 's' }),
+          ['<CR>'] = cmp.mapping.confirm({ select = true }),
+        }),
+      })
+
       lsp.setup()
     end
   },
