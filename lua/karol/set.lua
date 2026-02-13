@@ -9,7 +9,7 @@ require('onedark').setup {
     style = 'darker'
 }
 vim.o.background = "dark" -- or "light" for light mode
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme vague]])
 vim.keymap.set('n', '<leader>ai', vim.lsp.buf.code_action, { desc = 'Perform Code Action (Autoimport)' })
 
 -- Format current buffer with LSP
